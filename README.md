@@ -2,7 +2,7 @@
 
 Repository pour les rendus des pitch du HackathonBySayna
 
-## LES MEMBRES DU GROUPE
+## LES MEMBRES DE L'EQUIPE
 
 @mitsinjou
 @Rakotozonirina
@@ -41,10 +41,10 @@ Ici, le numérique ne peut être mis de côté car pour pouvoir présenter effic
 
 ### LES IMPACTS
 
-Mobilité des connaissances,
-interactivité des échanges et réseautage solide pour de futurs collaborations professionnelles,
-développement des économies locales,
-amélioration de la compétitivité / employabilité des jeunes sur le monde du travail par l'accès des formations diverses et de tous horizons
-et par extension, développement du tourisme local.
+-   Mobilité des connaissances,
+-   interactivité des échanges et réseautage solide pour de futurs collaborations professionnelles,
+-   développement des économies locales,
+-   Amélioration de la compétitivité / employabilité des jeunes sur le monde du travail par l'accès des formations diverses et de tous horizons,
+-   Par extension, développement du tourisme local.
 
 ![LOVE](http://ForTheBadge.com/images/badges/built-with-love.svg)
