@@ -12,7 +12,7 @@ export default function Home() {
         <Navbar/>
       </header>
       <main>
-        <Link href="/Dashbord">Click here to go into the page other</Link>
+        
       </main>
     </>
   )
