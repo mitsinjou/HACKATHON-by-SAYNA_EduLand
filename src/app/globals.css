@@ -9,3 +9,6 @@ body{
 .fristHeader{
   background: url(../../public/firsthero.png) no-repeat center center/cover;
 }
+.logo{
+  background: url(../../public/logo.png) no-repeat center center/cover;
+}

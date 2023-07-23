@@ -1,12 +1,11 @@
+"use client"
 import Image from 'next/image'
-
-import React, { useState, useEffect } from 'react'
-
+import Link from 'next/link'
 import Navbar from './Components/navbar'
 
-import Link from 'next/link'
 
 export default function Home() {
+  
   return (
     <>
       <header className='w-screen h-screen fristHeader'>
