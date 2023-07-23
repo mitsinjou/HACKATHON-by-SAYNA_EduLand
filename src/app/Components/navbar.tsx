@@ -4,9 +4,9 @@ import Link from "next/link"
 export default function Navbar(){
     return(
         <nav className="fixed flex justify-around top-0 left-0 w-full p-4 bg-transparent text-white transition duration-500">
-            <section className="w-[10rem] h-[6rem]  logo">
-
-            </section>
+            <Link href="/">
+                <section className="w-[10rem] h-[6rem]  logo"></section>
+            </Link>
             <section className="flex items-center h-[6rem]">
             <Link href="/Dashbord" className="font-sans font-semibold uppercase mx-4">Acceuil</Link>
             <Link href="/" className="font-sans font-semibold uppercase mx-4">Comment ça marche</Link>
