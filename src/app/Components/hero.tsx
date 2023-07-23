@@ -1,7 +1,16 @@
 import React from 'react'
 import Link from 'next/link'
+import { useFormik } from 'formik'
 
 export default function Hero(){
+    const formik = useFormik({
+        initialValues: {
+            search: '',
+        },
+        onSubmit: values => {
+            alert(JSON.stringify(values, null, 2));
+        },
+    });
     return(
         <section className='w-[80%] h-[70vh] grid grid-cols-2'>
             <article className='grid content-evenly'>
@@ -11,7 +20,20 @@ export default function Hero(){
                     <button type='button' className='p-2.5 bg-red-600 rounded-lg shadow justify-center items-center gap-2.5 inline-flex text-white text-lg font-semibold uppercase'>Demandez un devis</button>
                 </Link>
             </article>
-            <section className='border border-gray-400'></section>
+            <section className='flex items-end justify-center'>
+                <form onSubmit={formik.handleSubmit} className=' mb-8'>
+                <input
+                    id="search"
+                    name="search"
+                    type="search"
+                    title="search"
+                    className="w-[338.77px] h-[66px] bg-zinc-300 rounded-lg"
+                    onChange={formik.handleChange}
+                    value={formik.values.search}
+                />
+                <button type="submit" className='mx-4 p-2.5 bg-red-600 rounded-lg shadow justify-center items-center gap-2.5 inline-flex text-white text-lg font-semibold'>Rechercher</button>
+                </form>
+            </section>
         </section>
     )
 }
