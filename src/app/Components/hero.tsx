@@ -27,7 +27,7 @@ export default function Hero(){
                     name="search"
                     type="search"
                     title="search"
-                    className="w-[338.77px] h-[66px] bg-zinc-300 rounded-lg"
+                    className="w-[338.77px] h-[50.95px] indent-4 font-semibold font-sans  bg-zinc-300 rounded-lg"
                     onChange={formik.handleChange}
                     value={formik.values.search}
                 />
