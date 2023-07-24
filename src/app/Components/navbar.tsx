@@ -1,9 +1,32 @@
-import React from "react"
+import React, { useState, useEffect } from "react"
 import Link from "next/link"
 
 export default function Navbar(){
+
+    const [color, setColor] = useState(false);
+
+    const changeColor = () => {
+        if(typeof window !== 'undefined'){
+            if (window.scrollY > 100) {
+                setColor(true);
+            }else{
+                setColor(false);
+            }
+        }
+    };
+
+    useEffect(() => {
+        window.addEventListener('scroll', changeColor);
+
+        return () => {
+            window.removeEventListener('scroll', changeColor);
+        };
+
+    }, []);
+
+
     return(
-        <nav className="fixed flex justify-around top-0 left-0 w-full p-4 bg-transparent text-white transition duration-500">
+        <nav className={`fixed flex justify-around top-0 left-0 w-full p-4 z-10 text-white transition duration-500 ${color ? 'bg-gray-400' : 'bg-transparent'} `}>
             <Link href="/">
                 <section className="w-[10rem] h-[6rem]  logo"></section>
             </Link>
