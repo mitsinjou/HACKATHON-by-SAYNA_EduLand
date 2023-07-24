@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import { useFormik } from 'formik'
+import { FaMagnifyingGlass } from 'react-icons/fa6'
 
 export default function Hero(){
     const formik = useFormik({
@@ -21,16 +22,19 @@ export default function Hero(){
                 </Link>
             </article>
             <section className='flex items-end justify-center'>
-                <form onSubmit={formik.handleSubmit} className=' mb-8'>
+                <form onSubmit={formik.handleSubmit} className='flex mb-8'>
+                <div className='relative'>
+                <FaMagnifyingGlass className='absolute pointer-events-none top-[30%] left-[2%] w-5 h-5'/>
                 <input
                     id="search"
                     name="search"
                     type="search"
                     title="search"
-                    className="w-[338.77px] h-[50.95px] indent-4 font-semibold font-sans  bg-zinc-300 rounded-lg"
+                    className="w-[338.77px] h-[50.95px] indent-8 font-semibold font-sans ring-2 ring-red-400 focus:ring-red-600 focus:ring-2 bg-zinc-300 rounded-lg"
                     onChange={formik.handleChange}
                     value={formik.values.search}
                 />
+                </div>    
                 <button type="submit" className='mx-4 p-2.5 bg-red-600 rounded-lg shadow justify-center items-center gap-2.5 inline-flex text-white text-lg font-semibold'>Rechercher</button>
                 </form>
             </section>
