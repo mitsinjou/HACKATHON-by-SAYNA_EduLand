@@ -26,7 +26,7 @@ export default function Navbar(){
 
 
     return(
-        <nav className={`fixed flex justify-around top-0 left-0 w-full p-4 z-10 text-white transition duration-500 ${color ? 'bg-gray-400' : 'bg-transparent'} `}>
+        <nav className={`fixed flex justify-around top-0 left-0 w-full p-4 z-10 text-white transition duration-500 ${color ? 'bg-stone-400' : 'bg-transparent'} `}>
             <Link href="/">
                 <section className="w-[10rem] h-[6rem]  logo"></section>
             </Link>

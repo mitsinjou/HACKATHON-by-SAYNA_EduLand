@@ -32,14 +32,14 @@ export default function Contact(){
     return(
             <div className=' flex items-center justify-center w-[80%] h-[90vh]'>
                 <form onSubmit={formik.handleSubmit} className='w-[634px] h-[466px] flex flex-col justify-center items-center'>
-                    <p className="text-center text-black text-[32px] font-bold">Vous avez une requête à nous soumettre ?</p>
-                    <p className="text-center text-black text-xl font-normal my-4">Remplissez le formulaire ci-dessous :</p>
+                    <p className="text-center text-black text-[32px] font-bold">DEMANDE DE DEVIS</p>
+                    <p className="text-center text-black text-xl font-normal my-4">Remplissez se formulaire pour nous soumèttre vos bésoins !</p>
                     <input
                         id="email"
                         name="email"
                         type="email"
                         title="email"
-                        placeholder="E-mail"
+                        placeholder="Votre email ici"
                         onChange={formik.handleChange}
                         onBlur={formik.handleBlur}
                         value={formik.values.email}
@@ -53,7 +53,7 @@ export default function Contact(){
                         title="Message"
                         name="text"
                         type="text"
-                        placeholder="Message"
+                        placeholder="Vos besoins"
                         className="w-[363px] my-2 h-[150px] indent-8 bg-zinc-300 rounded-[13px] shadow border border-black"
                         onChange={formik.handleChange}
                         onBlur={formik.handleBlur}
@@ -62,7 +62,7 @@ export default function Contact(){
                     {formik.touched.text && formik.errors.text ? (
                             <div>{formik.errors.text}</div>
                     ) : null}
-                    <button type="submit" className='w-[108px] h-10 bg-red-600 rounded-[5px] text-white text-lg font-semibold'>Soumettre</button>
+                    <button type="submit" className='w-[108px] h-10 bg-red-600 rounded-[5px] text-white text-lg font-semibold'>Valider</button>
                 </form>
             </div>
     )

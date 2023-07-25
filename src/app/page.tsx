@@ -7,7 +7,7 @@ import FirstMap from './Components/firstMap'
 import SimpleText from './Components/simpleText'
 import SecondMap from './Components/secondMap'
 import Contact from './Components/contact'
-
+import Footer from './Components/footer'
 
 export default function Home() {
   
@@ -35,12 +35,12 @@ export default function Home() {
             </div>
           </section>
         </section>
-        <section className='flex justify-center items-center w-screen h-screen'>
+        <section className='flex justify-center items-center w-screen h-screen' id='contact'>
           <Contact/>
         </section>
       </main>
-      <footer className='w-screen h-40 bg-black'>
-        Footer Here!
+      <footer className='w-screen h-40 flex justify-center items-center bg-neutral-800 bg-opacity-40'>
+        <Footer/>
       </footer>
     </>
   )
