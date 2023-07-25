@@ -1,11 +1,11 @@
 "use client"
-import Image from 'next/image'
 import Navbar from './Components/navbar'
 import Hero from './Components/hero'
 import FirstSection from './Components/firstSection'
 import SecondSection from './Components/secondSection'
 import FirstMap from './Components/firstMap'
 import SimpleText from './Components/simpleText'
+import SecondMap from './Components/secondMap'
 
 
 export default function Home() {
@@ -16,20 +16,20 @@ export default function Home() {
         <Navbar/>
         <Hero/>
       </header>
-      <main className='w-screen h-[200vh]'>
+      <main className='w-screen h-[260vh]'>
         <section className='w-screen h-[80vh] flex justify-center items-center bg-zinc-300 bg-opacity-60'>
             <FirstSection/>
         </section>
-        <section className='w-screen h-[130vh] flex flex-col justify-center items-center bg-stone-200'>
+        <section className='w-screen h-[180vh] flex flex-col justify-center items-center bg-stone-200'>
           <SecondSection/>
           <section className='w-screen h-[80vh] grid grid-rows-2'>
             <div className='flex justify-center gap-24 flex-wrap'>
               <FirstMap/>
             </div>
-            <div className='border flex flex-col border-orange-400'>
+            <div className='flex flex-col'>
               <SimpleText/>
-              <section className='w-screen border border-red-400'>
-
+              <section className='w-screen flex pt-4 flex-wrap gap-24 justify-center'>
+                <SecondMap/>
               </section>
             </div>
           </section>
