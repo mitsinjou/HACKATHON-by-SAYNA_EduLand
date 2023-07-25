@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function SecondSection(){
     return(
-        <div className=' w-[80%] h-40 grid grid-rows-2 my-12'>
+        <div className=' w-[80%] h-40 grid grid-rows-2 my-6'>
             <article>
                 <p className='text-center text-black text-[32px] font-semibold uppercase'>comment ça marche ?</p>
             </article>

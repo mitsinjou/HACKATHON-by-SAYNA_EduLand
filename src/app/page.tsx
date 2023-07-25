@@ -6,6 +6,7 @@ import SecondSection from './Components/secondSection'
 import FirstMap from './Components/firstMap'
 import SimpleText from './Components/simpleText'
 import SecondMap from './Components/secondMap'
+import Contact from './Components/contact'
 
 
 export default function Home() {
@@ -16,7 +17,7 @@ export default function Home() {
         <Navbar/>
         <Hero/>
       </header>
-      <main className='w-screen h-[260vh]'>
+      <main className='w-screen h-[360vh]'>
         <section className='w-screen h-[80vh] flex justify-center items-center bg-zinc-300 bg-opacity-60'>
             <FirstSection/>
         </section>
@@ -33,6 +34,9 @@ export default function Home() {
               </section>
             </div>
           </section>
+        </section>
+        <section className='border border-violet-500 flex justify-center items-center w-screen h-screen'>
+          <Contact/>
         </section>
       </main>
     </>
