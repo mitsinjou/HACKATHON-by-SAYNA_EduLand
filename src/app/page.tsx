@@ -35,10 +35,13 @@ export default function Home() {
             </div>
           </section>
         </section>
-        <section className='border border-violet-500 flex justify-center items-center w-screen h-screen'>
+        <section className='flex justify-center items-center w-screen h-screen'>
           <Contact/>
         </section>
       </main>
+      <footer className='w-screen h-40 bg-black'>
+        Footer Here!
+      </footer>
     </>
   )
 }
