@@ -12,3 +12,6 @@ body{
 .logo{
   background: url(../../public/logo1.png) no-repeat center center/cover;
 }
+.secondHeader{
+  background: url(../../public/secondHero.png) no-repeat center center/cover;
+}
