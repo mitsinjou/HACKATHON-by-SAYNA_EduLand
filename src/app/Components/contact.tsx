@@ -81,7 +81,7 @@ export default function Contact(){
                     ) : null}
                     <button type="submit" className='w-[108px] h-10 bg-red-600 rounded-[5px] text-white text-lg font-semibold'>Valider</button>
                     <Modal title="Basic Modal"  open={isModalOpen} onOk={handleOk} onCancel={handleCancel}>
-                        <p>Nous avons bien réçu vos besoins!</p>
+                        <p className='text-green-400'>Nous avons bien réçu vos besoins!</p>
                         <p>Nous vous contacterons aprés traitement de votre dossier.</p>
                         <p>A très bientot!!!</p>
                     </Modal>
