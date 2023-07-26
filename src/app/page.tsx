@@ -21,7 +21,7 @@ export default function Home() {
         <section className='w-screen h-[80vh] flex justify-center items-center bg-zinc-300 bg-opacity-60'>
             <FirstSection/>
         </section>
-        <section className='w-screen h-[180vh] flex flex-col justify-center items-center bg-stone-200'>
+        <section className='w-screen h-[180vh] flex flex-col justify-center items-center bg-stone-200' id='commentCaMarche'>
           <SecondSection/>
           <section className='w-screen h-[80vh] grid grid-rows-2'>
             <div className='flex justify-center gap-24 flex-wrap'>
