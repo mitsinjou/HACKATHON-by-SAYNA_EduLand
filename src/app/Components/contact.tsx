@@ -1,4 +1,6 @@
+import React, {useState} from 'react';
 import { useFormik } from 'formik'
+import { Modal } from 'antd'
 
 interface FormValues {
     email: string;
@@ -22,13 +24,28 @@ export default function Contact(){
     const formik = useFormik({
         initialValues: {
             email: '',
-            text: ''
+            text: '',
         },
         validate,
-        onSubmit: values => {
-            alert(JSON.stringify(values, null, 2));
+        onSubmit: (values) => {
+            console.log(JSON.stringify(values, null, 2));
+            showModal();
         },
     });
+    const [isModalOpen, setIsModalOpen] = useState(false);
+
+    const showModal = () => {
+        setIsModalOpen(true);
+    };
+    
+    const handleOk = () => {
+        setIsModalOpen(false);
+    };
+    
+    const handleCancel = () => {
+        setIsModalOpen(false);
+    };
+
     return(
             <div className=' flex items-center justify-center w-[80%] h-[90vh]'>
                 <form onSubmit={formik.handleSubmit} className='w-[634px] h-[466px] flex flex-col justify-center items-center'>
@@ -63,6 +80,11 @@ export default function Contact(){
                             <div>{formik.errors.text}</div>
                     ) : null}
                     <button type="submit" className='w-[108px] h-10 bg-red-600 rounded-[5px] text-white text-lg font-semibold'>Valider</button>
+                    <Modal title="Basic Modal"  open={isModalOpen} onOk={handleOk} onCancel={handleCancel}>
+                        <p>Nous avons bien réçu vos besoins!</p>
+                        <p>Nous vous contacterons aprés traitement de votre dossier.</p>
+                        <p>A très bientot!!!</p>
+                    </Modal>
                 </form>
             </div>
     )
