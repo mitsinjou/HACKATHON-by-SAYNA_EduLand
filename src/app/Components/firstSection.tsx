@@ -10,8 +10,8 @@ export default function FirstSection(){
             </section>
             <section className='w-full h-[62vh] grid grid-cols-2'>
                 <div className='flex flex-col justify-center items-center'>
-                    <p className='w-[401.37px] text-justify text-black text-lg font-normal'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris non orci a sapien volutpat fermentum. Duis eu congue lectus. Pellentesque dignissim imperdiet lacus, quis ultrices nulla consectetur efficitur.</p>
-                    <p className='my-2 w-[401.37px] text-justify text-black text-lg font-normal'>Proin in elit ornare, consectetur erat sit amet, congue turpis. Suspendisse iaculis purus consectetur quam scelerisque molestie. Morbi sapien augue, lacinia a dolor eu, condimentum vehicula mauris</p>
+                    <p className='w-[401.37px] text-justify text-black text-lg font-normal'>EduLand est un projet qui va faire la liaison entre les jeunes demandeurs d’opportunité et les acteurs, partout à Madagascar qui sont en capacité de donner ces opportunités, c’est-à-dire c’est l’opportunité qui va se déplacer vers les jeunes, les entreprises, les associations ou tout autre organisme qui en besoin. C’est une plateforme qu’on peut qualifier comme une agence de voyage spécialisé parce que nous prendrons en charge l’organisation de l’événement, le séjour des intervenants ou les deux selon le choix de nos clients.</p>
+                    <p className='my-2 w-[401.37px] text-justify text-black text-lg font-normal'>Actuellement, on est 4 personnes dans l’équipe de Eduland avec chacun ses compétences et capacités : digital marketing, développeur front-end et web design. On a mis en place ce site pour faciliter l’interaction avec nos clients et présenter notre projet à tout le monde. Nous remercions déjà nos partenaires pour leur confiance et leur soutien à ce projet.</p>
                 </div>
                 <div className='flex justify-end items-center'>
                     <Image src="/fristImage.png" alt="firstShow" className="rounded-lg shadow backdrop-blur-sm" width={423.72} height={296.77}/>
