@@ -8,8 +8,8 @@ const DataBlogs = [
         img: '/laptop.png',
         nameImg: 'laptop',
         paraOne: "Notre responsable marketing vous parle de l'accéssibilité à la formation à Madagascar",
-        date: "01 janvier 2022",
-        paraTwo: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In gravida, dolor non lacinia consectetur, arcu sem porttitor....",
+        date: "28 julliet 2023",
+        paraTwo: "Dans le monde numérique d'aujourd'hui, les formations en ligne sont devenues populaires en raison de leur flexibilité et de leur accessibilité. ",
         lien: "Lire la suite"
     },
     {
@@ -17,8 +17,8 @@ const DataBlogs = [
         img: '/ted.png',
         nameImg: 'ted',
         paraOne: "Pourquoi TED est une référence en matière d'évènement éducatif ?",
-        date: "01 janvier 2022",
-        paraTwo: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In gravida, dolor non lacinia consectetur, arcu sem porttitor....",
+        date: "28 julliet 2023",
+        paraTwo: "L'un des principaux avantages d'une formation en présentiel est l'interaction en temps réel avec l'instructeur et les autres apprenants. ",
         lien: "Lire la suite"
     },
     {
@@ -26,8 +26,8 @@ const DataBlogs = [
         img: '/events.png',
         nameImg: 'events',
         paraOne: "Nos conseils pour gérer un évènement de formation",
-        date: "01 janvier 2022",
-        paraTwo: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In gravida, dolor non lacinia consectetur, arcu sem porttitor....",
+        date: "28 julliet 2023",
+        paraTwo: "Les formations en présentiel offrent souvent des opportunités d'apprentissage pratique. ",
         lien: "Lire la suite"
     }
 ];

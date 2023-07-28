@@ -31,11 +31,11 @@ export default function Navbar(){
                 <section className="w-[10rem] h-[6rem]  logo"></section>
             </Link>
             <section className="flex items-center h-[6rem]">
-            <Link href="/" className="font-sans font-semibold uppercase mx-4">Acceuil</Link>
-            <Link href="/Blog" className="font-sans font-semibold uppercase mx-4">Blog</Link>
-            <Link href="/Packadge" className="font-sans font-semibold uppercase mx-4">Nos packages</Link>
+            <Link href="/" className="hover:text-red-600 font-sans font-semibold uppercase mx-4">Acceuil</Link>
+            <Link href="/Blog" className="hover:text-red-600 font-sans font-semibold uppercase mx-4">Blog</Link>
+            <Link href="/Packadge" className="hover:text-red-600 font-sans font-semibold uppercase mx-4">Nos packages</Link>
             <Link href="/Partenaire" className="mx-4">
-                <button type="button" className="p-2.5 bg-red-600 rounded-lg shadow justify-center items-center gap-2.5 flex text-white text-lg font-bold">Nos partenaires</button>
+                <button type="button" className="p-2.5 hover:bg-orange-400 bg-red-600 rounded-lg shadow justify-center items-center gap-2.5 flex text-white text-lg font-bold">Nos partenaires</button>
             </Link>
             </section>
         </nav>
