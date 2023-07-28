@@ -30,7 +30,7 @@ export default function SecondNavbar(){
                     <section className="w-[10rem] h-[6rem]  logo"></section>
                 </Link>
             <button type='button' className="p-2.5 bg-red-600 rounded-lg shadow justify-center items-center gap-2.5 flex text-white text-lg font-semibold">Nos partenaires</button>
-                <Link className="pl-7 pr-[29px] py-2.5 bg-black rounded-lg shadow justify-center items-center gap-2.5 flex text-white text-lg font-semibold uppercase" href="/">Retour</Link>
+                <Link className="pl-7 pr-[29px] py-2.5 hover:bg-orange-400 bg-black rounded-lg shadow justify-center items-center gap-2.5 flex text-white text-lg font-semibold uppercase" href="/">Retour</Link>
             </section>
         </section>
     )

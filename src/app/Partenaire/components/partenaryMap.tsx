@@ -30,40 +30,40 @@ const Descriptions = [
     },
     {
         id: 4,
-        img: '/sayna.png',
-        alt: 'sayna',
+        img: '/oif.jpg',
+        alt: 'oif',
         textone: "Promouvoir la langue française et la diversité culturelle et linguistique",
         tel: 'Téléphone: (33) 1 44 37 33 25',
         texttwo: 'Rendez-vous: francophonie.org',
     },
     {
         id: 5,
-        img: '/sayna.png',
-        alt: 'sayna',
+        img: '/cotisse.jpg',
+        alt: 'cotisse',
         textone: "Services disponibles: Service de transport et d'accompagnement",
         tel: 'Téléphone: 032 11 027 11',
         texttwo: 'Rendez-vous: Ave Barday, Mahajanga'
     },
     {
         id: 6,
-        img: '/sayna.png',
-        alt: 'sayna',
+        img: '/palm.jpg',
+        alt: 'palm',
         textone: "Services disponibles: Hotel, Spa et Salle de conférence",
         tel: 'Téléphone: 034 61 379 85',
         texttwo: "Rendez-vous: Ambondrona, route de l'Université"
     },
     {
         id: 7,
-        img: '/sayna.png',
-        alt: 'sayna',
+        img: '/corniche.jpg',
+        alt: 'corniche',
         textone: "Services disponibles: Hotel de style décontracté et Restaurant et Salle",
         tel: 'Téléphone: 034 07 011 11',
         texttwo: "Rendez-vous: 49 Ave De France, Mahajanga"
     },
     {
         id: 8,
-        img: '/sayna.png',
-        alt: 'sayna',
+        img: '/baobabTree.jpg',
+        alt: 'baobabTree',
         textone: "Services disponibles: Hotel 4 étoiles et Spa et Salle de conférence",
         tel: 'Téléphone: 020 62 241 72',
         texttwo: "Rendez-vous: BP522, La Corniche, Boulevard Marcoz, Mahajanga"
