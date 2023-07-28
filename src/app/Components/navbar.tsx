@@ -32,7 +32,7 @@ export default function Navbar(){
             </Link>
             <section className="flex items-center h-[6rem]">
             <Link href="/" className="font-sans font-semibold uppercase mx-4">Acceuil</Link>
-            <Link href="/" className="font-sans font-semibold uppercase mx-4">Blog</Link>
+            <Link href="/Blog" className="font-sans font-semibold uppercase mx-4">Blog</Link>
             <Link href="/Packadge" className="font-sans font-semibold uppercase mx-4">Nos packages</Link>
             <Link href="/Partenaire" className="mx-4">
                 <button type="button" className="p-2.5 bg-red-600 rounded-lg shadow justify-center items-center gap-2.5 flex text-white text-lg font-bold">Nos partenaires</button>

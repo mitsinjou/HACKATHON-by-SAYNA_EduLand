@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const Datas = [
     {
@@ -38,7 +39,9 @@ export default function SecondMap(){
                     <Image src={Data.img} alt={Data.alternative} width={340} height={255}/>
                 </section>
                     <p className='text-center text-black text-xl font-normal my-4'>{Data.heading}</p>
-                    <button type='button' className='p-2.5 bg-red-600 rounded-lg shadow justify-center items-center gap-2.5 flex text-white text-lg font-semibold'>{Data.btn}</button>
+                    <Link href="/Packadge">
+                        <button type='button' className='p-2.5 bg-red-600 rounded-lg shadow justify-center items-center gap-2.5 flex text-white text-lg font-semibold'>{Data.btn}</button>
+                    </Link>
             </div>)}
         </>
     )
