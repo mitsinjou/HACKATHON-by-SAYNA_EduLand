@@ -84,7 +84,7 @@ export default function Contact(){
                     <Modal title="Reussi" className='text-center'  open={isModalOpen} onOk={handleOk} onCancel={handleCancel}>
                         <p className='text-green-400 text-xl'>Nous avons bien réçu vos besoins!</p>
                         <p className='font-semibold'>Nous vous contacterons aprés traitement de votre dossier.</p>
-                        <p className='font-semibold flex items-center'> <FaFaceSmileWink/> A très bientot!!! <FaFaceSmile/> </p>
+                        <p className='font-semibold ms-[38%] flex items-center'> <FaFaceSmileWink className='text-green-400' /> A très bientot!!! <FaFaceSmile className='text-green-400' /> </p>
                     </Modal>
                 </form>
             </div>

@@ -5,9 +5,9 @@ import PartenaryMap from './components/partenaryMap'
 export default function Page(){
     return(
         <>
-            <header className='w-screen h-screen flex justify-center items-end relative secondHeader'>
+            <header className='w-screen h-[230vh] flex justify-center items-start relative secondHeader'>
                 <SecondNavbar/>
-                <section className='w-screen h-[50vh] flex justify-around mb-16'>
+                <section className='w-screen h-[200vh] pt-[40vh] px-8 flex justify-center flex-wrap gap-6 mb-16'>
                     <PartenaryMap/>
                 </section>
             </header>

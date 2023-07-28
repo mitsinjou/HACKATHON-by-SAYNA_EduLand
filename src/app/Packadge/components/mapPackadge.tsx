@@ -54,7 +54,7 @@ const DataCards = [
         spandesc: '(Transport)',
         paradescone: 'Hebergement',
         spandescone: '(Hotel)',
-        fastar: <FaStar/>,
+        fastar: <FaStar  className='text-orange-400'/>,
         paradesctwo: 'Evenement',
         spandestwo: '(Organisation)'
     }
@@ -89,26 +89,26 @@ export default function MapPackadge(){
                             <p className="text-black font-sans text-lg font-semibold">{DataCard.paraFirst}</p>
                         </article>
                         <section className="flex items-center justify-around">
-                            <button className="pl-[33px] pr-[34px] py-2.5 bg-black rounded-lg justify-center items-center inline-flex text-center text-white text-lg font-semibold uppercase" type="button">
+                            <button className="pl-[33px] pr-[34px] py-2.5 hover:bg-orange-400 bg-black rounded-lg justify-center items-center inline-flex text-center text-white text-lg font-semibold uppercase" type="button">
                                 {DataCard.btn}
                             </button>
-                            <p className='text-black text-lg font-normal underline'>{DataCard.price}</p>
+                            <p className='text-black text-xl font-semibold underline'>{DataCard.price}</p>
                         </section>
                     </article>
                     <article className={`w-[363px] h-[215.5px] justify-center items-start flex-col ${isMouseOver === index ? 'flex' : 'hidden'}`}>
-                        <p className="w-[300px] h-[87px] flex items-start justify-center text-black text-lg font-normal leading-[38px]">
+                        <p className="w-[300px] h-[87px] flex items-start font-semibold justify-center text-black text-lg ms-10 leading-[38px]">
                             {DataCard.paraSecond}
                         </p>
                         <section className='w-[363px] h-24'>
-                            <p className='flex justify-center items-center h-6'>
-                                <FaStar/>
+                            <p className='flex justify-center items-center font-semibold h-6'>
+                                <FaStar className='text-orange-400'/>
                                 {DataCard.paradesc} <span>{DataCard.spandesc}</span>   
                             </p>
-                            <p className='flex justify-center items-center my-1 h-6'>
-                                <FaStar/>
+                            <p className='flex justify-center items-center my-1 font-semibold h-6'>
+                                <FaStar className='text-orange-400'/>
                                 {DataCard.paradescone} <span>{DataCard.spandescone}</span>
                             </p>
-                            <p className='flex justify-center items-center h-6'>
+                            <p className='flex justify-center items-center font-semibold h-6'>
                                 {DataCard.fastar}
                                 {DataCard.paradesctwo} <span> {DataCard.spandestwo} </span>
                             </p>
