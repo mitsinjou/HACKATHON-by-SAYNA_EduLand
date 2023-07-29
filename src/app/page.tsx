@@ -17,8 +17,8 @@ export default function Home() {
         <Navbar/>
         <Hero/>
       </header>
-      <main className='w-screen h-[360vh]'>
-        <section className='w-screen h-[80vh] flex justify-center items-center bg-zinc-300 bg-opacity-60'>
+      <main className='w-screen h-[410vh] lg:h-[360vh]'>
+        <section className='w-screen h-[130vh] lg:h-[80vh] flex justify-center items-center bg-zinc-300 bg-opacity-60'>
             <FirstSection/>
         </section>
         <section className='w-screen h-[180vh] flex flex-col justify-center items-center bg-stone-200' id='commentCaMarche'>
