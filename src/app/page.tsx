@@ -13,7 +13,7 @@ export default function Home() {
   
   return (
     <>
-      <header className='w-screen h-[130vh] flex justify-center items-center fristHeader'>
+      <header className='w-screen h-[150vh] lg:h-[130vh] flex justify-center items-center fristHeader'>
         <Navbar/>
         <Hero/>
       </header>
