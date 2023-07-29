@@ -11,13 +11,13 @@ export default function Footer(){
             </article>
             <div className='w-screen h-30 flex justify-center items-center'>
                 <Link href="/">
-                    <FaSquareFacebook className='w-[32px] h-[32px] rounded-full hover:text-orange-400'/>
+                    <FaSquareFacebook className='w-[24px] h-[24px] lg:w-[32px] lg:h-[32px] rounded-full hover:text-orange-400'/>
                 </Link>
                 <Link href="/">
-                    <FaSquareTwitter className='w-[32px] mx-4 h-[32px] hover:text-orange-400'/>
+                    <FaSquareTwitter className='w-[24px] h-[24px] lg:w-[32px] mx-4 lg:h-[32px] hover:text-orange-400'/>
                 </Link>
                 <Link href="/">
-                    <FaLinkedin className='w-[32px] h-[32px] rounded-full hover:text-orange-400'/>
+                    <FaLinkedin className='w-[24px] h-[24px] lg:w-[32px] lg:h-[32px] rounded-full hover:text-orange-400'/>
                 </Link>
             </div>
         </div>

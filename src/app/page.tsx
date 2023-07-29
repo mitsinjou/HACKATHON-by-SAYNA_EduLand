@@ -17,19 +17,19 @@ export default function Home() {
         <Navbar/>
         <Hero/>
       </header>
-      <main className='w-screen h-[410vh] lg:h-[360vh]'>
+      <main className='w-screen h-[700vh] lg:h-[360vh]'>
         <section className='w-screen h-[130vh] lg:h-[80vh] flex justify-center items-center bg-zinc-300 bg-opacity-60'>
             <FirstSection/>
         </section>
-        <section className='w-screen h-[180vh] flex flex-col justify-center items-center bg-stone-200' id='commentCaMarche'>
+        <section className='w-screen h-[470vh]  lg:h-[180vh] flex flex-col justify-center items-center bg-stone-200'>
           <SecondSection/>
-          <section className='w-screen h-[80vh] grid grid-rows-2'>
+          <section className='w-screen h-[450vh] lg:h-[80vh] grid grid-rows-2'>
             <div className='flex justify-center gap-24 flex-wrap'>
               <FirstMap/>
             </div>
             <div className='flex flex-col'>
               <SimpleText/>
-              <section className='w-screen flex pt-4 flex-wrap gap-24 justify-center'>
+              <section className='w-screen flex flex-col lg:flex-row pt-4 flex-nowrap lg:flex-wrap gap-24 justify-center'>
                 <SecondMap/>
               </section>
             </div>
