@@ -8,10 +8,10 @@ import MapPackadge from "./components/mapPackadge"
 export default function Page(){
     return(
         <>
-            <header className='w-screen h-[120vh] bg-stone-200 flex flex-col items-end justify-center'>
+            <header className='w-screen h-[400vh] lg:h-[120vh] bg-stone-200 flex flex-col items-center lg:items-end justify-center'>
                 <Navbar/>
                 <TextPackadge/>
-                <section className='w-screen h-[70vh] mt-12 justify-around flex flex-wrap relative'>
+                <section className='w-screen h-[280vh] lg:h-[70vh] mt-12 justify-around flex flex-wrap relative'>
                     <ButtonPackadge/>
                     <MapPackadge/>
                 </section>
