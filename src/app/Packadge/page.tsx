@@ -17,7 +17,7 @@ export default function Page(){
                 </section>
                 <section className='w-screen text-center py-8'>
                     <p className="font-semibold">* selon le nombre du jour de l&#39;évenement</p>
-                    <p className="font-semibold">** Selon la durée du séjour de l&#39;intervenant et la durée de l'évenement</p>
+                    <p className="font-semibold">** Selon la durée du séjour de l&#39;intervenant et la durée de l&#39;évenement</p>
                 </section>
             </header>
             <footer className='w-screen h-40 bg-neutral-800 bg-opacity-40'>
