@@ -13,6 +13,39 @@ Repository pour les rendus des pitch du HackathonBySayna
 
 ![LOGO](./logo-EduLand.png)
 
+## LES BRANCHES DU REPOSITORY
+
+### MAIN
+
+Ici ont été "pushé" tous les pitch et presentation qui nous ont servi pour le Hackathon
+
+### MASTER
+
+Ici ont été mis le code source du MVP du site vitrine de EduLand
+(Edit aujourd'hui 30 Juillet: A la dernière minute, nous avons eu un problème de deploiement de ce site pour le MVP)
+
+### ASSETS
+
+Tous les assets qui ont été utilisé pour le developpement du MVP
+
+## PROCESS DE FONCTIONNEMENT DE L'EQUIPE
+
+### decouverte:
+
+developpement du business model
+
+### orientation:
+
+developpement du design qu'on peut retrouver dans la branch main
+
+### specialisation:
+
+nous avons fait le choix de developper a la fois un site par wordpress et un autre via developpement web (code)
+
+### NOTE:
+
+Vu que le deploiement du site developpé par code a eu un problème dernière minute, notre de pitch de specialisation se concentrera sur celui sur wordpress
+
 ## RESUME TEXTE DU PROJET
 
 ### PROBLEMATIQUE IDENTIFIEE
@@ -41,10 +74,10 @@ Ici, le numérique ne peut être mis de côté car pour pouvoir présenter effic
 
 ### LES IMPACTS
 
--   Mobilité des connaissances,
--   interactivité des échanges et réseautage solide pour de futurs collaborations professionnelles,
--   développement des économies locales,
--   Amélioration de la compétitivité / employabilité des jeunes sur le monde du travail par l'accès des formations diverses et de tous horizons,
--   Par extension, développement du tourisme local.
+- Mobilité des connaissances,
+- interactivité des échanges et réseautage solide pour de futurs collaborations professionnelles,
+- développement des économies locales,
+- Amélioration de la compétitivité / employabilité des jeunes sur le monde du travail par l'accès des formations diverses et de tous horizons,
+- Par extension, développement du tourisme local.
 
 ![LOVE](http://ForTheBadge.com/images/badges/built-with-love.svg)
