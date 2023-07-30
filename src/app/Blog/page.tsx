@@ -7,7 +7,7 @@ import MapBlog from "./components/mapBlog"
 export default function Page(){
     return(
         <>
-            <header className='w-screen h-screen flex items-center justify-around flex-wrap bg-stone-200'>
+            <header className='w-screen h-[400vh] lg:h-screen flex items-center justify-around flex-wrap bg-stone-200'>
                 <Navbar/>
                 <MapBlog/>
             </header>
