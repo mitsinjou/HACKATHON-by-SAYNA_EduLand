@@ -3,6 +3,7 @@ import Image from 'next/image'
 
 export default function FirstSection(){
     return(
+
         <div className='w-[80%] h-[110vh] lg:h-[70vh]'>
 
         <section className='w-full mb-4 lg:mb-0 h-12'>
@@ -14,6 +15,7 @@ export default function FirstSection(){
                     <p className='my-2 w-full lg:w-[601.37px] text-justify text-black text-sm lg:text-lg font-semibold'>Actuellement, on est 4 personnes dans l’équipe de Eduland avec chacun ses compétences et capacités : digital marketing, développeur front-end et web design. On a mis en place ce site pour faciliter l’interaction avec nos clients et présenter notre projet à tout le monde. Nous remercions déjà nos partenaires pour leur confiance et leur soutien à ce projet.</p>
                 </div>
                 <div className='flex lg:h-[62vh] justify-center lg:justify-end items-center'>
+
                     <Image src="/fristImage.png" alt="firstShow" className="rounded-lg shadow backdrop-blur-sm" width={423.72} height={296.77}/>
                 </div>
             </section>

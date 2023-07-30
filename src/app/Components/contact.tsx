@@ -50,8 +50,10 @@ export default function Contact(){
     return(
             <div className=' flex items-center justify-center w-[80%] h-[90vh]'>
                 <form onSubmit={formik.handleSubmit} className='w-[634px] h-[466px] flex flex-col justify-center items-center'>
+
                     <p className="text-center text-black text-[24px] lg:text-[32px] font-bold">DEMANDE DE DEVIS</p>
                     <p className="text-center text-black text-lg lg:text-xl font-normal my-4">Remplissez se formulaire pour nous soumèttre vos bésoins !</p>
+
                     <input
                         id="email"
                         name="email"
@@ -80,7 +82,9 @@ export default function Contact(){
                     {formik.touched.text && formik.errors.text ? (
                             <div>{formik.errors.text}</div>
                     ) : null}
+
                     <button type="submit" className='w-[108px] hover:bg-orange-400 h-10 bg-red-600 rounded-[5px] text-white text-base lg:text-lg font-semibold'>Valider</button>
+
                     <Modal title="Reussi" className='text-center'  open={isModalOpen} onOk={handleOk} onCancel={handleCancel}>
                         <p className='text-green-400 text-xl'>Nous avons bien réçu vos besoins!</p>
                         <p className='font-semibold'>Nous vous contacterons aprés traitement de votre dossier.</p>
