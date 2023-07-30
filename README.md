@@ -15,7 +15,7 @@ Repository pour les rendus des pitch du HackathonBySayna
 
 ##  IMPORTANT SUR LE MVP
 
-(edit de @mitsibnjou ce 30 Juillet):
+(edit de @mitsinjou ce 30 Juillet):
 
 A la phase de spécialisation nous avons fait le choix de developper deux modeles de MVP, sur la   base du design Figma de @HAJANIRINA:
 
