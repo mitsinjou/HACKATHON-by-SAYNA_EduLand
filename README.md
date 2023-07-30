@@ -13,6 +13,17 @@ Repository pour les rendus des pitch du HackathonBySayna
 
 ![LOGO](./logo-EduLand.png)
 
+##  IMPORTANT SUR LE MVP
+
+(edit de @mitsibnjou ce 30 Juillet):
+
+A la phase de spécialisation nous avons fait le choix de developper deux modeles de MVP, sur la   base du design Figma de @HAJANIRINA:
+
+Le premier a été developpé via WORDPRESS (celui presenté par @HendryDi dans le pitch spécialisation)
+
+Le second a été developpé par @Rakotozonirina avec la technologie Next.js et Tailwind css, deployé à la dernière minute (pour des raisons techniques) avec Netlify à l'adresse:
+https://64c64b0f61f7c9739830c84d--preeminent-truffle-e8465a.netlify.app/
+
 ## LES BRANCHES DU REPOSITORY
 
 ### MAIN
@@ -22,7 +33,6 @@ Ici ont été "pushé" tous les pitch et presentation qui nous ont servi pour le
 ### MASTER
 
 Ici ont été mis le code source du MVP du site vitrine de EduLand
-(Edit aujourd'hui 30 Juillet: A la dernière minute, nous avons eu un problème de deploiement de ce site pour le MVP)
 
 ### ASSETS
 
