@@ -3,10 +3,9 @@ import Image from 'next/image'
 
 export default function FirstSection(){
     return(
-        <div className='w-[80%] h-[110vh] lg:h-[70vh]'>
-
-        <section className='w-full mb-4 lg:mb-0 h-12'>
-            <p className='text-center text-black text-[24px] lg:text-[32px] font-semibold uppercase'>Qui sommes nous ?</p>
+        <div className='w-[80%] h-[180vh] flex flex-col  justify-center items-between lg:h-[70vh]'>
+            <section className='w-full my-24 lg:my-0 h-12'>
+                <p className='text-center text-black text-[24px] lg:text-[32px] font-semibold uppercase'>Qui sommes nous ?</p>
             </section>
             <section className='w-full h-[100vh] lg:h-[62vh]  grid grid-rows-2 lg:grid-cols-2'>
                 <div className='flex flex-col lg:h-[62vh] justify-center items-center'>

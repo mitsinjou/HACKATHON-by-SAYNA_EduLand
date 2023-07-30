@@ -17,14 +17,14 @@ export default function Home() {
         <Navbar/>
         <Hero/>
       </header>
-      <main className='w-screen h-[700vh] lg:h-[360vh]'>
-        <section className='w-screen h-[130vh] lg:h-[80vh] flex justify-center items-center bg-zinc-300 bg-opacity-60'>
+      <main className='w-screen grid content-between items-between h-[900vh] lg:h-[360vh]'>
+        <section className='w-screen h-[200vh] lg:h-[80vh] flex justify-center items-center bg-zinc-300 bg-opacity-60'>
             <FirstSection/>
         </section>
-        <section className='w-screen h-[470vh]  lg:h-[180vh] flex flex-col justify-center items-center bg-stone-200'>
+        <section className='w-screen h-[600vh] lg:h-[180vh] flex flex-col justify-center items-center bg-stone-200'>
           <SecondSection/>
-          <section className='w-screen h-[450vh] lg:h-[80vh] grid grid-rows-2'>
-            <div className='flex justify-center gap-24 flex-wrap'>
+          <section className='w-screen h-[500vh] lg:h-[80vh] grid grid-rows-2'>
+            <div className='flex flex-col lg:flex gap-60 lg:gap-24 lg:flex-row justify-center'>
               <FirstMap/>
             </div>
             <div className='flex flex-col'>

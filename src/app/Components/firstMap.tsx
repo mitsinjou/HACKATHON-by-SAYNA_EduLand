@@ -21,7 +21,7 @@ const Paras = [
 export default function FirstMap(){
     return(
         <>
-            {Paras.map(para => <div className='w-[26.66%]' key={para.id}>
+            {Paras.map(para => <div className='lg:w-[26.66%]' key={para.id}>
                                     <p className='text-center text-amber-600 text-[24px] lg:text-[26px] font-semibold underline uppercase'>{para.firstText}</p>
                                     <p className='text-center text-black text-base lg:text-xl font-normal'>{para.secondText}</p>
                                 </div>) }
