@@ -8,11 +8,13 @@ import SimpleText from './Components/simpleText'
 import SecondMap from './Components/secondMap'
 import Contact from './Components/contact'
 import Footer from './Components/footer'
+import { motion, useScroll } from 'framer-motion'
 
 export default function Home() {
-  
+  const { scrollYProgress } = useScroll();
   return (
     <>
+    <motion.div className="w-screen h-2 bg-red-600 fixed top-0 left-0 z-20" style={{ scaleX: scrollYProgress }}/>
       <header className='w-screen h-[150vh] lg:h-[130vh] flex justify-center items-center fristHeader'>
         <Navbar/>
         <Hero/>
