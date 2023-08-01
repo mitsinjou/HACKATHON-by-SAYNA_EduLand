@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Image from 'next/image'
 import { FaStar } from "react-icons/fa6"
+import { motion } from 'framer-motion'
 
 
 const DataCards = [
@@ -75,7 +76,7 @@ export default function MapPackadge(){
 
     return(
         <>
-            {DataCards.map((DataCard, index) => <section className='w-[363px] h-[431px] rounded-lg shadow border border-stone-400' key={DataCard.id}>
+            {DataCards.map((DataCard, index) => <motion.section initial={{ opacity: 0, y: 100 }} whileInView={{ opacity: 1, y: 0 }} className='w-[363px] h-[431px] rounded-lg shadow border border-stone-400' key={DataCard.id}>
                     <section className={`w-[363px] h-[215.5px] justify-center items-center ${isMouseOver === index ? 'hidden' : 'flex'}`}>
                         <div className='w-[182px] h-[182px] bg-zinc-300 justify-center items-center rounded-full flex shadow' onMouseEnter={() => handleMouseEnter(index)}>
                             <Image src={DataCard.icon} alt={DataCard.iconAlt} width={124} height={124} />
@@ -114,7 +115,7 @@ export default function MapPackadge(){
                             </p>
                         </section>
                     </article>
-            </section>)}
+            </motion.section>)}
         </>
     )
 }

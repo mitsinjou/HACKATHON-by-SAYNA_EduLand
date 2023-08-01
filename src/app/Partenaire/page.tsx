@@ -1,3 +1,4 @@
+"use client"
 import SecondNavbar from './components/navbar'
 import Footer from '../Components/footer'
 import PartenaryMap from './components/partenaryMap'

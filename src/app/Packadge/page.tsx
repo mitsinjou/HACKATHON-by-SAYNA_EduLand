@@ -4,6 +4,7 @@ import Footer from "../Components/footer"
 import TextPackadge from "./components/textPackadge"
 import ButtonPackadge from "./components/buttonPackadge"
 import MapPackadge from "./components/mapPackadge"
+import { motion } from 'framer-motion'
 
 export default function Page(){
     return(
@@ -15,10 +16,10 @@ export default function Page(){
                     <ButtonPackadge/>
                     <MapPackadge/>
                 </section>
-                <section className='w-screen text-center py-8'>
+                <motion.section initial={{ opacity: 0, y: 100 }} whileInView={{ opacity: 1, y: 0 }} className='w-screen text-center py-8'>
                     <p className="font-semibold">* selon le nombre du jour de l&#39;évenement</p>
                     <p className="font-semibold">** Selon la durée du séjour de l&#39;intervenant et la durée de l&#39;évenement</p>
-                </section>
+                </motion.section>
             </header>
             <footer className='w-screen h-40 bg-neutral-800 bg-opacity-40'>
                 <Footer/>
