@@ -1,7 +1,8 @@
-import React, {useState} from 'react';
+import React, {useState} from 'react'
 import { useFormik } from 'formik'
 import { Modal } from 'antd'
 import { FaFaceSmileWink, FaFaceSmile } from "react-icons/fa6"
+import { motion } from 'framer-motion'
 
 interface FormValues {
     email: string;
@@ -49,7 +50,7 @@ export default function Contact(){
 
     return(
             <div className=' flex items-center justify-center w-[80%] h-[90vh]'>
-                <form onSubmit={formik.handleSubmit} className='w-[634px] h-[466px] flex flex-col justify-center items-center'>
+                <motion.form initial={{ opacity: 0, y: 100 }} whileInView={{ opacity: 1, y: 0 }} onSubmit={formik.handleSubmit} className='w-[634px] h-[466px] flex flex-col justify-center items-center'>
                     <p className="text-center text-black text-[24px] lg:text-[32px] font-bold">DEMANDE DE DEVIS</p>
                     <p className="text-center text-black text-lg lg:text-xl font-normal my-4">Remplissez se formulaire pour nous soumèttre vos bésoins !</p>
                     <input
@@ -86,7 +87,7 @@ export default function Contact(){
                         <p className='font-semibold'>Nous vous contacterons aprés traitement de votre dossier.</p>
                         <p className='font-semibold ms-[38%] flex items-center'> <FaFaceSmileWink className='text-green-400' /> A très bientot!!! <FaFaceSmile className='text-green-400' /> </p>
                     </Modal>
-                </form>
+                </motion.form>
             </div>
     )
 }
