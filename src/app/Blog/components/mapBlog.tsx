@@ -1,6 +1,8 @@
 import React from 'react'
 import Image from "next/image"
 import Link from "next/link"
+import { motion } from "framer-motion"
+
 
 const DataBlogs = [
     {
@@ -35,7 +37,8 @@ const DataBlogs = [
 export default function MapBlog(){
     return(
         <>
-            {DataBlogs.map(DataBlog => <section className='w-80 h-[368px] flex flex-col items-center' key={DataBlog.id}>
+            {DataBlogs.map(DataBlog => <motion.section initial={{ opacity: 0, y: 100 }} whileInView={{ opacity: 1, y: 0 }} className='w-80 h-[368px] flex flex-col items-center' key={DataBlog.id}>
+
                     <div>
                         <Image src={DataBlog.img} alt={DataBlog.nameImg} width={300} height={206}/>
                     </div>
@@ -47,7 +50,7 @@ export default function MapBlog(){
                             <p className="text-stone-400 text-sm font-bold underline">{DataBlog.lien}</p>
                         </Link>
                     </article>
-            </section>) }
+            </motion.section>) }
         </>
     )
 }

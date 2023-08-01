@@ -1,3 +1,5 @@
+
+"use client"
 import SecondNavbar from './components/navbar'
 import Footer from '../Components/footer'
 import PartenaryMap from './components/partenaryMap'
@@ -5,9 +7,9 @@ import PartenaryMap from './components/partenaryMap'
 export default function Page(){
     return(
         <>
-            <header className='w-screen h-[230vh] flex justify-center items-start relative secondHeader'>
+            <header className='w-screen h-[500vh] lg:h-[230vh] flex justify-center items-start relative secondHeader'>
                 <SecondNavbar/>
-                <section className='w-screen h-[200vh] pt-[40vh] px-8 flex justify-center flex-wrap gap-6 mb-16'>
+                <section className='w-screen h-[400vh] lg:h-[200vh] pt-[40vh] px-8 flex justify-center flex-wrap gap-6 mb-16'>
                     <PartenaryMap/>
                 </section>
             </header>

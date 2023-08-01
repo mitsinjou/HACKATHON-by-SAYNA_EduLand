@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import Link from 'next/link'
+import { motion } from 'framer-motion'
 
 
 const Descriptions = [
@@ -73,7 +73,8 @@ const Descriptions = [
 export default function PartenaryMap(){
     return(
         <>
-            {Descriptions.map(description =>  <div className='w-80 h-[50vh] rounded-lg bg-gray-300' key={description.id}>
+            {Descriptions.map(description =>  <motion.div initial={{ opacity: 0, y: 100 }} whileInView={{ opacity: 1, y: 0 }} className='w-80 h-[50vh] rounded-lg bg-gray-300' key={description.id}>
+
                 <section className='w-80 pt-4 h-[77px] flex justify-center'>
                     <Image src={description.img} alt={description.alt} width={156} height={77}/>
                 </section>
@@ -82,7 +83,7 @@ export default function PartenaryMap(){
                     <p className="text-gray-600 text-sm font-normal">{description.tel}</p>
                     <p className='text-gray-600 text-xs font-normal'>{description.texttwo}</p>
                 </article>
-            </div>)}
+            </motion.div>)}
         </>
     )
 }

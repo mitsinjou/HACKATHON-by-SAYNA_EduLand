@@ -11,7 +11,6 @@ export default function Footer(){
             </article>
             <div className='w-screen h-30 flex justify-center items-center'>
                 <Link href="/">
-
                     <FaSquareFacebook className='w-[24px] h-[24px] lg:w-[32px] lg:h-[32px] rounded-full hover:text-orange-400'/>
                 </Link>
                 <Link href="/">
@@ -19,7 +18,6 @@ export default function Footer(){
                 </Link>
                 <Link href="/">
                     <FaLinkedin className='w-[24px] h-[24px] lg:w-[32px] lg:h-[32px] rounded-full hover:text-orange-400'/>
-
                 </Link>
             </div>
         </div>

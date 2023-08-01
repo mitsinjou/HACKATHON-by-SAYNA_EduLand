@@ -1,6 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
+import { motion } from 'framer-motion'
+
 
 const Datas = [
     {
@@ -33,8 +35,7 @@ const Datas = [
 export default function SecondMap(){
     return(
         <>
-
-            {Datas.map(Data => <div className=' lg:w-[26.66%] h-[60vh] flex flex-col items-center justify-center' key={Data.id}>
+            {Datas.map(Data => <motion.div initial={{ opacity: 0, y: 100 }} whileInView={{ opacity: 1, y: 0 }} className=' lg:w-[26.66%] h-[60vh] flex flex-col items-center justify-center' key={Data.id}>
                 <section className='relative'>
                     <p className='absolute top-[40%] w-[205.33px] left-[20%] text-center text-white text-base lg:text-2xl font-bold uppercase'>{Data.insideText}</p>
                     <Image src={Data.img} alt={Data.alternative} width={340} height={255}/>
@@ -42,9 +43,8 @@ export default function SecondMap(){
                     <p className='text-center text-black text-base lg:text-xl font-normal my-4'>{Data.heading}</p>
                     <Link href="/Packadge">
                         <button type='button' className='p-2.5 hover:bg-orange-400 bg-red-600 rounded-lg shadow justify-center items-center gap-2.5 flex text-white text-base lg:text-lg font-semibold'>{Data.btn}</button>
-
                     </Link>
-            </div>)}
+            </motion.div>)}
         </>
     )
 }
