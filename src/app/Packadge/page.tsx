@@ -6,6 +6,7 @@ import ButtonPackadge from "./components/buttonPackadge"
 import MapPackadge from "./components/mapPackadge"
 import { motion } from 'framer-motion'
 
+
 export default function Page(){
     return(
         <>

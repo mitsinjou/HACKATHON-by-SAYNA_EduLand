@@ -16,6 +16,7 @@ export default function FirstSection(){
                 <motion.div initial={{ opacity: 0, x: 100 }} whileInView={{ opacity: 1, x: 0 }} className='flex lg:h-[62vh] justify-center lg:justify-end items-center'>
                     <Image src="/fristImage.png" alt="firstShow" className="rounded-lg shadow backdrop-blur-sm" width={423.72} height={296.77}/>
                 </motion.div>
+
             </section>
         </div>
     )

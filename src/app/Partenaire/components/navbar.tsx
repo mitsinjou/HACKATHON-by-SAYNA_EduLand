@@ -6,6 +6,7 @@ import { motion, useScroll } from 'framer-motion'
 export default function SecondNavbar(){
     const [color, setColor] = useState(false);
     const { scrollYProgress } = useScroll();
+
     const changeColor = () => {
         if(typeof window !== 'undefined'){
             if (window.scrollY > 100) {

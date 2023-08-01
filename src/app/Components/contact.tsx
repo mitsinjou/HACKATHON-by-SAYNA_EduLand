@@ -1,3 +1,4 @@
+
 import React, {useState} from 'react'
 import { useFormik } from 'formik'
 import { Modal } from 'antd'
@@ -82,6 +83,7 @@ export default function Contact(){
                             <div>{formik.errors.text}</div>
                     ) : null}
                     <button type="submit" className='w-[108px] hover:bg-orange-400 h-10 bg-red-600 rounded-[5px] text-white text-base lg:text-lg font-semibold'>Valider</button>
+
                     <Modal title="Reussi" className='text-center'  open={isModalOpen} onOk={handleOk} onCancel={handleCancel}>
                         <p className='text-green-400 text-xl'>Nous avons bien réçu vos besoins!</p>
                         <p className='font-semibold'>Nous vous contacterons aprés traitement de votre dossier.</p>

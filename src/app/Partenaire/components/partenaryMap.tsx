@@ -2,6 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import { motion } from 'framer-motion'
 
+
 const Descriptions = [
     {
         id: 1,
@@ -73,6 +74,7 @@ export default function PartenaryMap(){
     return(
         <>
             {Descriptions.map(description =>  <motion.div initial={{ opacity: 0, y: 100 }} whileInView={{ opacity: 1, y: 0 }} className='w-80 h-[50vh] rounded-lg bg-gray-300' key={description.id}>
+
                 <section className='w-80 pt-4 h-[77px] flex justify-center'>
                     <Image src={description.img} alt={description.alt} width={156} height={77}/>
                 </section>
